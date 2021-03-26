@@ -1,0 +1,16 @@
+body{
+    background-color: #333;
+    color: #fc0;
+}
+.align{
+    text-align: center;
+}
+.block{
+    background-color: #a1a1a1;
+}
+.locked{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
