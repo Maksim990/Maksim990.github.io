@@ -1,0 +1,19 @@
+body{
+    background-color: #333;
+    color: #fc0;
+}
+.align{
+    text-align: center;
+}
+.locked{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+.block{
+    background: #474747;
+    color: #fff;
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Уголки */
+}
