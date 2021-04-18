@@ -1,0 +1,14 @@
+/* Боковое навигационное меню */
+.sidenav {height: 100%; /* 100% Full-height */width: 0; /* 0 ширина - изменить с помощью JavaScript */position: fixed; /* Остаюсь на месте */z-index: 1; /* Остаюсь сверху */top: 0; /* Остаюсь наверху */left: 0;background-color: #111; /* Фон черный */overflow-x: hidden; /* Отключить горизонтальную прокрутку */padding-top: 0px; /* Поместить контент в 60px сверху */transition: 0.5s; /* 0.5 второй эффект перехода слайда в боковой навигации */}
+/* Ссылки меню навигации */
+.sidenav a {padding: 7px 7px 7px 10px;text-decoration: none;font-size: 25px;color: #ffffff;display: block;transition: 0.5s;}
+/* Когда навожу курсор мыши на навигационные ссылки, изменяется цвет */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+/* Положение и стиль кнопки закрытия (верхний правый угол) */
+.sidenav .closebtn {position: absolute;top: 1;right: 71px;font-size: 30px;margin-left: 50px;}
+/* Стиль содержимого страницы - если хочу сдвинуть содержимое страницы вправо при открытии боковой навигации */
+#main {transition: margin-left .5s;padding: 0px;}
+/* На экранах меньшего размера, где высота меньше 450px, изменить стиль sidenav (меньше отступов и меньший размер шрифта) */
+@media screen and (max-height: 450px) {.sidenav {padding-top: 15px;}.sidenav a {font-size: 18px;}}
